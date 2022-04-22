@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gg{
+    width: 600px;
+    height: 600px;
+    margin:50 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.gg h2{
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+}
+.gg h2 span{
+    display: inline-table;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #06F;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+.gg h2 a{
+    float: right;
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+}
+.gg ul{
+    margin: 5px;
+}
+.gg ul li{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    border-bottom: 1px dashed #ccc;
+}
+.gg ul li a{
+background: url(/c08/img/bg_01.jpg) no-repeat left center;
+padding-left: 15px;
+display:block;
+width: 400px;
+height: 35px;
+float: left;
+text-decoration: none;
+color: #666666;
+overflow: hidden;
+white-space:nowrap;
+text-overflow: ellipsis;
+}
+.gg ul li a:hover{
+    color: #06F;
+}
+.gg ul li span{
+    float: right;
+    color: #999999;
+}
